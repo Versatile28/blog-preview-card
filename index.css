@@ -41,7 +41,16 @@ body{
     color: hsl(0, 0%, 7%);
 }
 
-.card_body>h2,.comment{
+.card_body>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.card_body>a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.card_body>a,.comment{
     font-weight: 800;
     color: hsl(0, 0%, 7%);
 }
